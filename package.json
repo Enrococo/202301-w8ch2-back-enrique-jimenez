@@ -2,11 +2,12 @@
   "name": "202301-w8ch2-back-enrique-jimenez",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/server.js",
+  "main": "dist/app.js",
+  "type": "module",
   "scripts": {
     "start:dev": "node dist/server.js --watch",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/app.js",
     "test": "jest",
     "prepare": "husky install",
     "-----": "---------CI----------",
@@ -43,6 +44,7 @@
     "bunyan": "^1.8.15",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "jest-ts-webcompat-resolver": "^1.0.0"
+    "jest-ts-webcompat-resolver": "^1.0.0",
+    "supertest": "^6.3.3"
   }
 }
