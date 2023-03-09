@@ -1,6 +1,6 @@
 import cors from 'cors';
 import express from 'express';
-import { errorHandler } from './utils/error-handler';
+import { errorHandler } from './utils/error-handler.js';
 
 const app = express();
 
